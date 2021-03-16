@@ -1,0 +1,190 @@
+/*TÄMÄ ON IT-TUKI SIVUJEN TYYLIMÄÄRITYSTIEDOSTO, Made in Riihimäki by Toni Kuukkanen with <3 */
+
+/**************************************************************************************
+***************************************************************************************/
+
+
+body {
+background-color: lightgray;
+
+
+
+ 
+}
+/***********************************************PYYDÄ HINTATARJOUS NAPPI JA LINKKIEN MÄÄRITYKSET*********************************************/
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nappi {
+	
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: Helvetica;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.nappi:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+/****************************************************************ALAPALKKI MÄÄRITYKSET, alkaa tästä**********************************************/
+.alapalkki {
+
+  left: 0;
+  bottom:0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  position:fixed;
+  }
+/************************************************************NAVIGOINTIPALKIN MÄÄRITYKSET, alkaa tästä ******************************************/
+.ylapalkki {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+  position: top;
+  top: 0;
+  width: 100%;
+}
+
+
+/***********************************************************NAVIPALKIN LINKKIEN MÄÄRITYKSET, alkaa tästä****************************************/
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+/**************************************************************OTA YHTEYTTÄ NAPPI YLÄPALKISSA, alkaa tästä***************************************/
+
+.otayhteytta {
+  background-color: #4CAF50;
+}
+.otayhteytta:hover {
+	background-color: red;
+  color: white;
+}
+/***************************FONTTIEN JA TEKSTIEN MÄÄRITYKSET, alkaa tästä *****************************************/
+.otsikko {
+  padding: 2%;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: auto;
+}
+
+.artikkeli {
+  padding: 5%;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: auto;
+}
+
+ 
+/******************* PALVELUMME SIVUN TAULUKKO JA MYÖSKIN KUVAGALLERIA alkaa tästä ****************************/
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+margin-left: auto;
+margin-right: auto;
+}
+th, td {
+padding: 5px;
+text-align: left;
+}
+
+.gallery {
+  
+ border: 1px solid #ccc;
+  display: inline-block;
+  margin:0 auto;
+
+text-align: center;  
+}
+
+.gallery img {
+margin:0 auto;
+text-align: center;  
+}
+
+
+.desc {
+  padding: 5px;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: Bold;
+}
+  
+ .aa {
+	padding: 5px;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: Bold;
+}
+
+/******************************************************HINTATARJOUS LOMAKE*************************************************************/
+.lomake {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding: 100px;
+font-family: Helvetica;
+}
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  outline:none;
+  box-sizing: border-box;
+  
+}
+textarea {
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline:none;
+}
+
+
+/*******************************************************************************************************************************************************************
+*****************************************************************WASH YOUR HANDS!*********************STAY SAFE!****************************************************
+************SUPPORT YOUR LOCAL*********************************************************************SPECIAL THANKS TO EIJA LUMME!************************************/
